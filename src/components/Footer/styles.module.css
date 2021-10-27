@@ -1,0 +1,24 @@
+.Footer {
+  background: var(--blue);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  font-family: var(--font);
+  font-size: 1rem;
+}
+
+.Footer a {
+  margin-left: 0.3rem;
+  color: #f8f83a;
+  font-weight: bold;
+}
+
+a.author {
+  margin: 0 0.3rem;
+  color: #52ffda;
+}
+
+a:hover {
+  text-decoration: underline;
+}

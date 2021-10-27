@@ -1,0 +1,32 @@
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  gap: 5px;
+  padding: 1.2rem;
+  border-radius: 4px;
+
+  color: white;
+  text-align: center;
+
+  cursor: pointer;
+
+  margin: 1.2rem 0.8rem;
+}
+
+.Icon:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.Icon span#name {
+  font-weight: 400;
+  font-size: 1.025rem;
+  opacity: 0.5;
+}
+
+.Icon span#state {
+  font-weight: 600;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,109 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+  
+  width: 100%;
+}
+
+.btnAroundMenu {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+}
+
+.btnAroundMenu::after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 24px;
+  height: 3px;
+  background: black;
+
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  transition: 0.2s;
+}
+
+.btnAroundMenu::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 24px;
+  height: 3px;
+  background: black;
+
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+
+  transition: 0.2s;
+}
+.btnAroundMenu:hover {
+  background: linear-gradient(#fff 40%, var(--red) );
+  opacity: 1;
+}
+
+.btnAroundMenu:hover::before {
+  transform: rotate(90deg);
+  top: 50%;
+  width: 8px;
+  left: 10%;
+}
+
+.btnAroundMenu:hover::after {
+  transform: rotate(90deg);
+  top: 50%;
+  width: 8px;
+  right: 0;
+}
+
+.logoSVG {
+  width: 96px;
+}
+
+.btnShutdown {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnShutdown:hover {
+  opacity: 1;
+  background: rgba(204, 204, 204, 0.2);
+}
+
+.alert {
+  position: absolute;
+  color: var(--red);
+
+  font-weight: bold;
+
+  top: 50%;
+  left: 120%;
+  transform: translateY(-50%);
+  transition: 0.2s;
+  animation: op 0.7s;
+}
+
+@keyframes op {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
