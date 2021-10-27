@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from './styles.module.css';
+import './styles.css';
 
 type Icon = {
   image: string;
@@ -10,10 +10,10 @@ type Icon = {
 
 export function Icon({image, name, state} : Icon) {
   return (
-    <div className={styles.Icon}>
+    <div className="Icon">
       <img src={image} alt={name} />
-      <span id={styles.name}>{name}</span>
-      <span id={styles.state}>{state}</span>
+      <span id="name">{name}</span>
+      <span id="state">{state}</span>
     </div>
   );
 }

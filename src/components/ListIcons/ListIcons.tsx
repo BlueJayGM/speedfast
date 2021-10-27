@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from './styles.module.css';
+import './styles.css';
 
 import { Icon } from "../Icon/Icon";
 
@@ -8,7 +8,7 @@ import icons from '../../assets/icons.json';
 
 export function ListIcons() {
   return (
-    <section className={styles.ListIcons}>
+    <section className="ListIcons">
       {
         icons.map((icon) => {
           return (
