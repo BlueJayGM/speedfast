@@ -2,7 +2,7 @@ import React from "react";
 
 import './styles.css';
 
-type Icon = {
+export type Icon = {
   image: string;
   name: string;
   state: string;

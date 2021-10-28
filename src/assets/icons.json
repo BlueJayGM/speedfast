@@ -2,36 +2,36 @@
   {
     "name": "Battery",
     "state": "78%",
-    "image": "./src/assets/icons/generator.svg"
+    "image": "generator"
   },
   {
     "name": "Lights",
     "state": "On",
-    "image": "./src/assets/icons/flashlight.svg"
+    "image": "flashlight"
   },
   {
     "name": "Bluetooth",
     "state": "On",
-    "image": "./src/assets/icons/bluetooth.svg"
+    "image": "bluetooth"
   },
   {
     "name": "Pressure",
     "state": "Normal",
-    "image": "./src/assets/icons/orange.svg"
+    "image": "orange"
   },
   {
     "name": "Ignition",
     "state": "Off",
-    "image": "./src/assets/icons/outlet.svg"
+    "image": "outlet"
   },
   {
     "name": "Locked",
     "state": "Yes",
-    "image": "./src/assets/icons/shield.svg"
+    "image": "shield"
   },
   {
     "name": "Tracking",
     "state": "On",
-    "image": "./src/assets/icons/lte.svg"
+    "image": "lte"
   }
 ]
