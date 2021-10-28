@@ -6,7 +6,7 @@ import orange from './icons/orange.svg';
 import outlet from './icons/outlet.svg';
 import shield from './icons/shield.svg';
 
-export default {
+const images : any = {
   bluetooth,
   flashlight,
   generator,
@@ -15,3 +15,5 @@ export default {
   outlet,
   shield,
 };
+
+export default images;
